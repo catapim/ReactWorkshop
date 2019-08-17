@@ -75,10 +75,7 @@ class App extends Component {
         <p style={numberTarget}>{this.state.numeroInicial}</p>
         <button style={buttonUp} onClick={this.incrementaNumero}>sube numero</button>
         <button style={buttonDown} onClick={this.decrementaNumero}>baja numero</button>      
-        <button style={buttonReset} onClick={this.resetNumero}>reset</button>  
-      </div>
-    );
-  }
-}
+        <button style={buttonReset} onClick={this.resetNumero}>reset</button> </div>
+        )
+    }}
 
-export default hot(module)(App);
